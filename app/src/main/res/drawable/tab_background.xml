@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Tab in pressed (selected) state -->
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white"/> <!-- Ganti warna latar belakang yang Anda inginkan -->
+        </shape>
+    </item>
+
+    <!-- Tab in default (unselected) state -->
+    <item android:state_selected="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFF"/> <!-- Warna latar belakang default -->
+        </shape>
+    </item>
+</selector>
